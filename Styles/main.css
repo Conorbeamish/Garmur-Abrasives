@@ -83,12 +83,20 @@ hr {
     height: 500px;
 }
 
+#about-jumbotron {
+    background-image: url("../Images/wheel.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+
 #contact-jumbotron{
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
       ),
-      url("../Images/boys.jpg");
+      url("../Images/building.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
