@@ -47,6 +47,12 @@ hr {
     visibility: visible; 
 }
 
+.product-tile {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
 
 #navbar-brandname{
     border-bottom: 1px solid black;
@@ -69,8 +75,8 @@ hr {
 
 #products-jumbotron{
     background-image: linear-gradient(
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.7)
       ),
       url("../Images/fibrediscs.jpg");
     background-size: cover;
@@ -79,16 +85,48 @@ hr {
     height: 500px;
 }
 
-#product-image1{
+#blast-media{
     background-image: url("../Images/wheel.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 500px;
+}
+
+#burrs {
+    background-image: url("../Images/wheel.jpeg");
+}
+
+#brushes {
+    background-image: url("../Images/wheel.jpeg");
+}
+
+#coated {
+    background-image: url("../Images/wheel.jpeg");
+}
+
+#compound {
+    background-image: url("../Images/wheel.jpeg");
+}
+
+#diamond {
+    background-image: url("../Images/wheel.jpeg");
+}
+
+#non-woven {
+    background-image: url("../Images/wheel.jpeg");
+}
+
+#safety {
+    background-image: url("../Images/wheel.jpeg");
+}
+
+#wheels {
+    background-image: url("../Images/wheel.jpeg");
 }
 
 #about-jumbotron {
-    background-image: url("../Images/wheel.jpeg");
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.25),
+        rgba(0, 0, 0, 0.25)
+      ),
+    url("../Images/wheel.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -97,8 +135,8 @@ hr {
  
 #contact-jumbotron{
     background-image: linear-gradient(
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
+        rgba(0, 0, 0, 0.25),
+        rgba(0, 0, 0, 0.25)
       ),
       url("../Images/building.jpeg");
     background-size: cover;
