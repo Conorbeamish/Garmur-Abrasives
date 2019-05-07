@@ -39,6 +39,14 @@ hr {
     background: rgba(0, 0, 0, 0.1);
 }
 
+.reveal-text p{
+    visibility: hidden;
+}
+
+.reveal-text:hover p {
+    visibility: visible; 
+}
+
 
 #navbar-brandname{
     border-bottom: 1px solid black;
@@ -86,7 +94,7 @@ hr {
     background-position: center;
     height: 500px;
 }
-
+ 
 #contact-jumbotron{
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.5),
@@ -100,14 +108,6 @@ hr {
 }
 
 
-.reveal-text p{
-    visibility: hidden;
-}
-
-.reveal-text:hover p {
-    visibility: visible; 
-    
-}
 
 @media only screen and (max-width: 1000px) {
   [class*="product-text-smaller"] {
