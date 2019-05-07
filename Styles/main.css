@@ -47,11 +47,10 @@ hr {
     visibility: visible; 
 }
 
-.product-tile {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 500px;
+.card-img-top {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
 }
 
 #navbar-brandname{
@@ -85,41 +84,7 @@ hr {
     height: 500px;
 }
 
-#blast-media{
-    background-image: url("../Images/wheel.jpeg");
-}
 
-#burrs {
-    background-image: url("../Images/wheel.jpeg");
-}
-
-#brushes {
-    background-image: url("../Images/wheel.jpeg");
-}
-
-#coated {
-    background-image: url("../Images/wheel.jpeg");
-}
-
-#compound {
-    background-image: url("../Images/wheel.jpeg");
-}
-
-#diamond {
-    background-image: url("../Images/wheel.jpeg");
-}
-
-#non-woven {
-    background-image: url("../Images/wheel.jpeg");
-}
-
-#safety {
-    background-image: url("../Images/wheel.jpeg");
-}
-
-#wheels {
-    background-image: url("../Images/wheel.jpeg");
-}
 
 #about-jumbotron {
     background-image: linear-gradient(
