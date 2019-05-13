@@ -140,10 +140,10 @@ hr {
  
 #contact-jumbotron{
     background-image: linear-gradient(
-        rgba(0, 0, 0, 0.25),
-        rgba(0, 0, 0, 0.25)
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0.1)
       ),
-      url("../Images/building.jpeg");
+      url("../Images/contact.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
