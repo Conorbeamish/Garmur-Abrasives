@@ -150,6 +150,18 @@ hr {
     height: 500px;
 }
 
+#blast-media-product-jumbotron {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.25),
+        rgba(0, 0, 0, 0.25)
+      ),
+      url("../Images/boys.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+
 
 
 @media only screen and (max-width: 1000px) {
