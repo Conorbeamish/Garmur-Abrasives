@@ -93,6 +93,10 @@ hr {
     object-fit: cover;
 }
 
+.dropdown-item {
+    background: transparent !important;
+}
+
 #navbar-brandname{
     border-bottom: 1px solid black;
     color: #FF9D00;
