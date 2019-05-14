@@ -10,10 +10,6 @@ hr {
     background-color: black;
 }
 
-.brand-color{
-    color: #FF9D00;
-}
-
 .link {
     color: black;
     text-decoration: none;
@@ -51,8 +47,8 @@ hr {
     text-decoration: none;
 }
 
-.navbar-active {
-    color: #FF9D00; 
+.brand-color{
+    color: #FF9D00;
 }
 
 .card {
