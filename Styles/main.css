@@ -93,6 +93,10 @@ hr {
     background: transparent !important;
 }
 
+.hidden{
+    opacity: 0;
+}
+
 #navbar-brandname{
     border-bottom: 1px solid black;
     color: #FF9D00;
