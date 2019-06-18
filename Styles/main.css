@@ -32,6 +32,10 @@ hr {
     text-decoration: none;
 }
 
+.navbar-toggler{
+    border: none;
+}
+
 .navbar-link{
     display: block;
     padding: 0.5rem 1rem;
@@ -172,8 +176,14 @@ hr {
 
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 991px) {
   [class*="product-text-smaller"] {
     font-size: 2rem;
   }
+}
+
+@media only screen and (max-width: 991px){
+    [class*="navbar-brand"]{
+        font-size:1rem;
+    }
 }
