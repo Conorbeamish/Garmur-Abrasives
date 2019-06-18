@@ -106,7 +106,6 @@ hr {
 }
 
 #navbar-brandname{
-    border-bottom: 1px solid black;
     color: #FF9D00;
     font-weight: bold;
     letter-spacing: 0.05em;
@@ -182,8 +181,14 @@ hr {
   }
 }
 
-@media only screen and (max-width: 991px){
-    [class*="navbar-brand"]{
+@media only screen and (max-width: 768px){
+    [id*="navbar-brandname"]{
         font-size:1rem;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    [id*="navbar-brandname"]{
+        border-bottom: 1px solid black;
     }
 }
