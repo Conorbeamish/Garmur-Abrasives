@@ -1,6 +1,7 @@
 body{
     margin-top: 56px;
     font-family: 'Heebo', sans-serif;
+    background-color: #F9F9F9;
 }
 
 hr {
@@ -121,6 +122,10 @@ hr {
     background-repeat: no-repeat;
     background-position: center;
     height: 500px;
+}
+
+#index-suppliers{
+    background-color: white;
 }
 
 #products-jumbotron{
